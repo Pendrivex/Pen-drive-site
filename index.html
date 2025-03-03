@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayUP - Links</title>
+    <title>PlayUP - De um UP na sua TV</title>
     <style>
         * {
             margin: 0;
@@ -12,54 +12,48 @@
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: #121212;
-            color: white;
+            background: #111;
+            color: #fff;
             text-align: center;
-            padding: 50px;
         }
-        .logo {
-            width: 120px;
-            border-radius: 50%;
-            margin-bottom: 20px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
         }
         h1 {
-            font-size: 2rem;
-            color: #ffcc00;
+            font-size: 3rem;
+            color: #00ff88;
         }
         p {
-            margin-bottom: 20px;
             font-size: 1.2rem;
-            opacity: 0.8;
+            margin: 20px 0;
         }
-        .link {
-            display: block;
-            background: #ffcc00;
-            color: #121212;
-            padding: 15px;
-            margin: 10px auto;
-            width: 80%;
-            max-width: 300px;
-            text-decoration: none;
+        .btn {
+            display: inline-block;
+            background: #00ff88;
+            color: #111;
+            padding: 15px 30px;
             font-size: 1.2rem;
-            border-radius: 8px;
+            text-decoration: none;
+            border-radius: 5px;
             transition: 0.3s;
         }
-        .link:hover {
-            background: #e6b800;
+        .btn:hover {
+            background: #00cc66;
         }
     </style>
 </head>
 <body>
 
-    <img class="logo" src="https://via.placeholder.com/120" alt="Logo PlayUP">
-    <h1>PlayUP</h1>
-    <p>De um UP na sua TV! Acesse nossos links abaixo:</p>
-
-    <a class="link" href="https://seusite.com" target="_blank">🌐 Site Oficial</a>
-    <a class="link" href="https://instagram.com/seuinstagram" target="_blank">📷 Instagram</a>
-    <a class="link" href="https://youtube.com/seuyoutube" target="_blank">▶️ YouTube</a>
-    <a class="link" href="https://wa.me/seunumerodowhatsapp" target="_blank">💬 WhatsApp</a>
-    <a class="link" href="https://linkparadescarga.com" target="_blank">⬇️ Baixar App</a>
+    <div class="container">
+        <h1>PlayUP</h1>
+        <p>De um UP na sua TV com a melhor experiência de streaming.</p>
+        <a href="#" class="btn">Assine Agora</a>
+    </div>
 
 </body>
 </html>
